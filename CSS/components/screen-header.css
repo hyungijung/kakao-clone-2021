@@ -1,0 +1,15 @@
+.friend-screen_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+
+.firend-screen_header_h1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.friend-screen_header_div span {
+  margin-left: 20px;
+}
