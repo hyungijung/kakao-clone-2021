@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
-  padding: 25px;
+  padding: var(--horizontal-space);
 }
 
 .firend-screen_header_h1 {
@@ -13,4 +13,8 @@
 
 .friend-screen_header_div span {
   margin-left: 20px;
+}
+
+.friends-screen {
+  padding: 0px var(--horizontal-space);
 }

@@ -4,11 +4,19 @@
   align-items: center;
 }
 
+.user-component_text {
+  margin-left: 20px;
+}
 .user-component_avatar {
   widows: 80px;
   height: 80px;
   border-radius: 30px;
-  margin: 10px 20px;
+}
+
+.user-component-avatar_xl {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
 }
 
 .user-component-name {
@@ -16,7 +24,7 @@
   font-size: 20px;
 }
 
-.user-component-subtitle {
+.user-component_subtitle {
   margin-top: 10px;
   font-size: 17px;
   color: rgba(0, 0, 0, 0.5);
