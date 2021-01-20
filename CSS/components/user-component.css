@@ -1,3 +1,8 @@
+.user-component {
+  display: flex;
+  justify-content: space-between;
+}
+
 .user-component,
 .user-component_column:nth-child(1) {
   display: flex;
@@ -11,10 +16,11 @@
   margin-right: 20px;
 }
 
-.user-component-avatar_xl {
-  width: 70px;
-  height: 70px;
-  border-radius: 30px;
+.user-component-avatar_s {
+  width: 65px;
+  height: 65px;
+  border-radius: 25px;
+  margin-right: 20px;
 }
 
 .user-component-name {
@@ -24,6 +30,15 @@
 
 .user-component_subtitle {
   margin-top: 10px;
-  font-size: 17px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component-name_ch {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.user-component_column:last-child {
   color: rgba(0, 0, 0, 0.5);
 }
