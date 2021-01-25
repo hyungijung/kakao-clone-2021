@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="CSS/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - Kakao Clone</title>
+    <title>Chat - Kakao Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -28,13 +28,13 @@
       <ul class="nav_ul">
         <li class="nav_li">
           <a class="nav_a" href="friends.html"
-            ><i class="fas fa-user fa-2x"></i
+            ><i class="far fa-user fa-2x"></i
           ></a>
         </li>
         <li class="nav_li">
           <a class="nav_a" href="chat.html">
             <span class="nav-li_span badge">1</span>
-            <i class="far fa-comment fa-2x"></i
+            <i class="fas fa-comment fa-2x"></i
           ></a>
         </li>
         <li class="nav_li">
@@ -52,51 +52,29 @@
     </nav>
 
     <header class="friend-screen_header">
-      <h1 class="firend-screen_header_h1">Friends</h1>
+      <h1 class="firend-screen_header_h1">Chat</h1>
       <div class="friend-screen_header_div">
         <span><i class="fas fa-search fa-2x"></i></span>
+        <span><i class="fas fa-comment-dots fa-2x"></i></span>
         <span><i class="fas fa-music fa-2x"></i></span>
         <span><i class="fas fa-cog fa-2x"></i></span>
       </div>
     </header>
 
-    <a href="#" class="friends-display-link"
-      ><i class="fas fa-info-circle"></i> Friends Name Display<i
-        class="fas fa-chevron-right fa-xs"
-      ></i
-    ></a>
-
-    <main class="friends-screen">
+    <main class="chat-screen">
       <div class="user-component">
         <div class="user-component_column">
           <img src="user-component_photo.jpg" class="user-component_avatar" />
           <div class="user-component_text">
             <h4 class="user-component-name">Hyungi Jung</h4>
-            <h6 class="user-component_subtitle">상태 메시지</h6>
+            <h6 class="user-component_subtitle">
+              Please check my Kakao account info
+            </h6>
           </div>
         </div>
-        <div class="user-component_column"></div>
-      </div>
-
-      <div class="friends-screen_channel">
-        <div class="friends-screen_channel-header">
-          <span>Channel</span>
-          <i class="fas fa-chevron-up fa-xs"></i>
-        </div>
-
-        <div class="user-component">
-          <div class="user-component_column">
-            <img
-              src="user-component_photo.jpg"
-              class="user-component-avatar_s"
-            />
-            <div class="user-component_text">
-              <h4 class="user-component-name_ch">Channel</h4>
-            </div>
-          </div>
-          <div class="user-component_column">
-            <div><span>2</span> <i class="fas fa-chevron-right fa-xs"></i></div>
-          </div>
+        <div class="user-component_column">
+          <span class="user-component_time">13:36</span>
+          <div class="badge">1</div>
         </div>
       </div>
     </main>

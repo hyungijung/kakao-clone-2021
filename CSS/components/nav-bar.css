@@ -18,16 +18,7 @@
 }
 
 .nav-li_span {
-  display: flex;
-  background-color: tomato;
-  width: 30px;
-  height: 30px;
-  border-radius: 15px;
-  justify-content: center;
-  align-items: center;
-  color: white;
   position: absolute;
-  font-weight: 600px;
   left: 15px;
   bottom: 15px;
 }
