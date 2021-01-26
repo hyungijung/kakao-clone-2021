@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="CSS/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Find - Kakao Clone</title>
+    <title>More - Kakao Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -52,66 +52,55 @@
     </nav>
 
     <header class="friend-screen_header">
-      <h1 class="firend-screen_header_h1">Find</h1>
+      <h1 class="firend-screen_header_h1">More</h1>
       <div class="friend-screen_header_div">
         <span><i class="fas fa-search fa-2x"></i></span>
+        <span><i class="fas fa-music fa-2x"></i></span>
         <span><i class="fas fa-cog fa-2x"></i></span>
       </div>
     </header>
 
-    <main class="chat-screen">
-      <div class="icon-row">
-        <div class="icon-row_icon">
-          <i class="fas fa-qrcode"></i>
-          <span> QR Code </span>
-        </div>
-        <div class="icon-row_icon">
-          <i class="fas fa-address-book"></i>
-          <span> Add by contacts </span>
-        </div>
-        <div class="icon-row_icon">
-          <i class="fas fa-fingerprint"></i>
-          <span> Add by ID </span>
-        </div>
-        <div class="icon-row_icon">
-          <i class="far fa-envelope"></i>
-          <span> Invite </span>
-        </div>
-      </div>
-      <div class="icon-row_recommended">
-        <span>Recommended Friends</span>
-        <span>You have no recommended friends</span>
-      </div>
-      <div class="open-chat">
-        <div class="open-chat_header">
-          <span>Open Chat</span>
-          <span>Go to Openchat Home</span>
-        </div>
-      </div>
-      <div class="open-post">
-        <div class="open-post_column">
-          <span>#BTS</span>
-          <span>#bts #army #friends</span>
-          <div class="open-post_members">
-            <img src="user-component_photo.jpg" />
-            <span>802 members</span>
-            <div class="divider"></div>
-            <span>Active</span>
+    <main class="chat-screen more-screen">
+      <div class="user-component">
+        <div class="user-component_column">
+          <img src="user-component_photo.jpg" class="user-component_avatar" />
+          <div class="user-component_text">
+            <h4 class="user-component-name">Hyungi Jung</h4>
+            <h6 class="user-component_subtitle">+82 10 3243 8816</h6>
           </div>
         </div>
-        <div class="open-post_column">
-          <div>
-            <div class="open-post_photo">
-              <img
-                class="open-post_column_img"
-                src="user-component_photo.jpg"
-              />
+        <div class="user-component_column">
+          <i class="far fa-comment-alt fa-2x"></i>
+        </div>
+      </div>
 
-              <div class="open-post_column_div">
-                <i class="fas fa-heart fa-xs"></i>
-                <span>326</span>
-              </div>
+      <div class="icon-row">
+        <div class="icon-row_icon">
+          <i class="far fa-calendar"></i>
+          <span> Calendar </span>
+        </div>
+        <div class="icon-row_icon">
+          <i class="far fa-grin-stars"></i>
+          <span> Emotions </span>
+        </div>
+        <div class="icon-row_icon">
+          <i class="fas fa-brush"></i>
+          <span> Themes </span>
+        </div>
+        <div class="icon-row_icon">
+          <i class="far fa-user-circle"></i>
+          <span> Account </span>
+        </div>
+      </div>
+
+      <div class="more-suggestions">
+        <h4>Suggestions</h4>
+        <div class="more-suggestions_icons">
+          <div class="more-suggestions_icon">
+            <div class="more-suggestions_icon-image">
+              <i class="fas fa-quote-right"></i>
             </div>
+            <span>Kakao Story</span>
           </div>
         </div>
       </div>
