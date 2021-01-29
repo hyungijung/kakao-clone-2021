@@ -9,3 +9,27 @@
 .more-suggestions h4 {
   margin-bottom: 30px;
 }
+
+.more-suggestions_icons {
+  display: flex;
+}
+.more-suggestions_icon {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.more-suggestions_icon-image {
+  width: 60px;
+  height: 60px;
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.more-suggestions_icon-image i {
+  font-size: 25px;
+  color: white;
+}
