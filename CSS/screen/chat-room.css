@@ -1,0 +1,23 @@
+.chat-room_body {
+  background-color: #abc1b1;
+  height: 1000vh;
+}
+
+.chat-room_body .status-bar,
+.chat-room_body .alt-header {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  top: 0;
+  background-color: #abc1b1;
+}
+
+.chat-room_body .alt-header {
+  top: 10px;
+}
+.chat-room_body .status-bar {
+  z-index: 2;
+}
+.main-chat {
+  margin-top: 110px;
+}

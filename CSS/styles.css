@@ -19,17 +19,14 @@
 @import "screen/find.css";
 @import "screen/more.css";
 @import "screen/settings.css";
+@import "screen/chat-room.css";
 
 body {
   color: #2e363e;
   font-family: "Roboto", sans-serif;
-  height: 1000vh;
+  height: 100vh;
 }
 
 .chat-screen {
   padding: 0px var(--horizontal-space);
-}
-
-.setting-margin {
-  margin-top: 20px;
 }
