@@ -87,3 +87,63 @@
 .message-own .message_info {
   flex-direction: row-reverse;
 }
+
+.reply {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  align-items: center;
+}
+.reply_column:nth-child(1) {
+  width: 10%;
+  padding-left: 25px;
+}
+.reply_column:nth-child(2) {
+  width: 90%;
+  position: relative;
+}
+
+.reply input {
+  width: 100%;
+  padding: 14px;
+  height: 25px;
+  border: var(--main-border);
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.reply_column:nth-child(2) > i,
+.reply_column:nth-child(2) button {
+  position: absolute;
+  right: 15px;
+  top: 2px;
+}
+
+.reply_column:nth-child(2) > i {
+  right: 50px;
+  top: 6px;
+}
+
+.reply_column button {
+  background-color: var(--yellow);
+  border: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.reply_column button:focus,
+.reply_column button:active {
+  outline: none;
+}
+
+.reply i {
+  opacity: 0.5;
+}
+.reply_column button i {
+  opacity: 1;
+}
