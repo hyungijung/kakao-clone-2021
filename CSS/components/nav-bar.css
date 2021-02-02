@@ -21,6 +21,7 @@
   position: absolute;
   left: 15px;
   bottom: 15px;
+  animation: notification 2s ease-in-out infinite;
 }
 .nav-li_div {
   display: flex;
@@ -35,4 +36,16 @@
   font-weight: 600px;
   left: 30px;
   bottom: 30px;
+}
+
+@keyframes notification {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: none;
+  }
 }
